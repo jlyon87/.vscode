@@ -1,0 +1,23 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"window.menuBarVisibility": "toggle",
+  "window.zoomLevel": -1,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+	"editor.renderWhitespace": "boundary",
+  "editor.trimAutoWhitespace": true,
+	"files.trimTrailingWhitespace": true,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true,
+		"suppressWelcomeNotice": true
+	},
+	"explorer.confirmDragAndDrop": false,
+	"workbench.colorTheme": "Atom One Dark",
+	"gitlens.keymap": "chorded",
+  "gitlens.historyExplorer.enabled": true,
+}
