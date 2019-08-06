@@ -8,7 +8,7 @@
 
 # /user-settings.json
 
-> User Settings JSON File for vscode.
+> User Settings JSON File for vscode. Includes language specific indentation settings.
 
 # /workspace-settings.json
 
