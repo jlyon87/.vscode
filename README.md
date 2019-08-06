@@ -12,4 +12,4 @@
 
 # /workspace-settings.json
 
-> Workspace Settings JSON File for vscode.
+> Workspace Settings JSON File for vscode. Includes Vue JS Specific settings. 
