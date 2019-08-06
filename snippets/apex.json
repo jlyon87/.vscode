@@ -1,0 +1,23 @@
+/**
+    In and Apex file, type the `prefix` for a snippet and hit enter.
+*/
+{
+    "ApexTest{Class": {
+        "prefix": "testclass",
+        "description": "Create a Test Class",
+        "body": [
+            "@isTest",
+            "private class $TM_FILENAME_BASE {",
+            "\tstatic TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
+            "\t\t$0\n\t}\n}"
+        ]
+    },
+    "ApexTestMethod": {
+        "prefix": "testmethod",
+        "description": "Create a new Test Method",
+        "body": [
+            "static TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
+            "\t$0\n}"
+        ]
+    }
+}
