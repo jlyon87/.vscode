@@ -1,6 +1,6 @@
 {
     "ApexTest{Class": {
-        "prefix": "testclass",
+        "prefix": "test-class",
         "description": "Create a Test Class",
         "body": [
             "@isTest",
@@ -10,7 +10,7 @@
         ]
     },
     "ApexTestMethod": {
-        "prefix": "testmethod",
+        "prefix": "test-method",
         "description": "Create a new Test Method",
         "body": [
             "static TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
