@@ -1,6 +1,3 @@
-/**
-    In and Apex file, type the `prefix` for a snippet and hit enter.
-*/
 {
     "TestClass": {
         "prefix": "testclass",
