@@ -1,6 +1,9 @@
+/**
+    In and Apex file, type the `prefix` for a snippet and hit enter.
+*/
 {
-    "ApexTest{Class": {
-        "prefix": "test-class",
+    "TestClass": {
+        "prefix": "testclass",
         "description": "Create a Test Class",
         "body": [
             "@isTest",
@@ -9,8 +12,8 @@
             "\t\t$0\n\t}\n}"
         ]
     },
-    "ApexTestMethod": {
-        "prefix": "test-method",
+    "TestMethod": {
+        "prefix": "testmethod",
         "description": "Create a new Test Method",
         "body": [
             "static TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
@@ -45,5 +48,25 @@
             "*/"
         ],
         "description": "Apex Doc Header for Method"
+    },
+    "For Each Loop": {
+        "prefix": "for-each",
+        "body": [
+            "for (${1:type} ${2:item} : ${3:collection}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "For Each Loop"
+    },
+    "If Else": {
+        "prefix": "if-else",
+        "body": [
+            "if (${1:condition}) {",
+            "\t$0",
+            "} else {",
+            "\t",
+            "}"
+        ],
+        "description": "For Each Loop"
     }
 }
