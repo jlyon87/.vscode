@@ -1,6 +1,3 @@
-/**
-    In and Apex file, type the `prefix` for a snippet and hit enter.
-*/
 {
     "ApexTest{Class": {
         "prefix": "testclass",
@@ -19,5 +16,34 @@
             "static TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
             "\t$0\n}"
         ]
+    },
+    "Apex Doc Header for Class": {
+        "prefix": "apex-doc-class",
+        "body": [
+            "/**",
+            "* @author ${1:author}",
+            "* @date $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+            "*",
+            "* @group ${2:group}",
+            "* @group-content ${3:pathToDocContent}",
+            "*",
+            "* @description ${4:description}",
+            "*/"
+        ],
+        "description": "Apex Doc Header for Class"
+    },
+    "Apex Doc Header for Method": {
+        "prefix": "apex-doc-method",
+        "body": [
+            "/**",
+            "* @description ${1:description}",
+            "* @param ${2:param1}",
+            "* @param ${3:param2}",
+            "* @return ${4:return}",
+            "* @example",
+            "* ${5:example}",
+            "*/"
+        ],
+        "description": "Apex Doc Header for Method"
     }
 }
