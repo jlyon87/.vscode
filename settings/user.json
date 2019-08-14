@@ -1,7 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
@@ -39,5 +39,8 @@
         "editor.tabSize": 4,
         "editor.insertSpaces": true
     },
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "editor.mouseWheelScrollSensitivity": 5,
+    "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jre1.8.0_221",
+    "salesforcedx-vscode-core.retrieve-test-code-coverage": true
 }

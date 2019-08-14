@@ -13,6 +13,8 @@
 3. Key-in: "Apex"
 ```
 
+Once opened, you can copy/paste the snippets here.
+
 [VSCode Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
 
 ## /extensions.md
@@ -23,10 +25,26 @@
 
 > How to access your settings in vscode [here](https://code.visualstudio.com/docs/getstarted/settings).
 
+Open the Command Pallette: `ctrl + shift + p`
+
+Enter: `User Settings`
+
+This will provide a UI interface to manage settings, additionally the file can be edited directly in JSON by clicking the Open Settings (JSON) button pictured below.
+
+![image](images/vscode-settings-as-json-btn.png)
+
 ### /settings/user.json
 
-> User Settings JSON File for vscode. Includes language specific indentation settings. Applies to all of your projects.
+User Settings JSON File for vscode. Includes language specific indentation settings. Applies to all of your projects.
 
-### /settings/workspace.json
+### /settings/sfdx-workspace.json
 
-> Workspace Settings JSON File for vscode. Includes Vue JS Specific settings. Unique to the working directory.
+Workspace settings JSON for an SFDX project.
+
+### /settings/sfdx-manifest-workspace.json
+
+Workspace settings JSON for an SFDX traditional org model project.
+
+### /settings/vue-workspace.json
+
+Workspace settings JSON for vscode. Includes Vue JS Specific settings. Unique to the working directory.
