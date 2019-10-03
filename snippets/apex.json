@@ -65,5 +65,15 @@
             "}"
         ],
         "description": "For Each Loop"
+    },
+    "SOQL": {
+        "prefix": "soql",
+        "description": "New SOQL Statement",
+        "body": [
+            "[",
+            "\tSELECT Id,",
+            "\t\t${1:Columns}",
+            "\tFROM ${2:Table}];"
+        ]
     }
 }
