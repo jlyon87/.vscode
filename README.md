@@ -48,3 +48,9 @@ Workspace settings JSON for an SFDX traditional org model project.
 ### /settings/vue-workspace.json
 
 Workspace settings JSON for vscode. Includes Vue JS Specific settings. Unique to the working directory.
+
+## LWC ESLint Settings
+
+Enforces standard Javascript formatting in Lightning Web Components.
+
+Copy .eslintrc.json to `force-app/main/default/lwc`
