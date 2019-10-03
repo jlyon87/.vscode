@@ -41,9 +41,17 @@ User Settings JSON File for vscode. Includes language specific indentation setti
 
 Workspace settings JSON for an SFDX project.
 
+For standard SFDX projects using scratch orgs.
+
+`sfdx force:project:create -n project-name -t standard`
+
 ### /settings/sfdx-manifest-workspace.json
 
 Workspace settings JSON for an SFDX traditional org model project.
+
+For projects created by a manifest to work with a sandbox.
+
+`sfdx force:project:create -n project-name -t standard -x`
 
 ### /settings/vue-workspace.json
 
