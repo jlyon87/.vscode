@@ -2,9 +2,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "window.menuBarVisibility": "toggle",
     "window.zoomLevel": -1,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
     "editor.renderWhitespace": "boundary",
     "editor.trimAutoWhitespace": true,
     "emmet.triggerExpansionOnTab": true,
@@ -23,13 +20,12 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "typescript.validate.enable": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "[apex]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": false
-    },
-    "[html]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true
     },
     "[xml]": {
         "editor.tabSize": 4,
