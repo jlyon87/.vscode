@@ -2,6 +2,8 @@
 
 > Contains Justin's VSCode settings to support either Salesforce DX, Node, or Vue JS Development.
 
+[Justin's SFDX Cheatsheet](https://gist.github.com/jlyon87/eb4b258f15b7b22b9b8674a4705448e7)
+
 ## /snippets
 
 > Contains an apex.json snippet for creating apex test classes and methods.
