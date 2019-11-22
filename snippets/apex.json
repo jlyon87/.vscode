@@ -3,10 +3,16 @@
         "prefix": "testclass",
         "description": "Create a Test Class",
         "body": [
-            "@isTest",
+            "@IsTest",
             "private class $TM_FILENAME_BASE {",
+            "",
+            "\t@TestSetup",
+            "\tstatic void setupData() {}",
+            "",
             "\tstatic TestMethod void ${1:methodName}_given${2:X}_shouldGet${3:Y}() {",
-            "\t\t$0\n\t}\n}"
+            "\t\t$0",
+            "\t}",
+            "}"
         ]
     },
     "TestMethod": {
