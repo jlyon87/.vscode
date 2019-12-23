@@ -1,24 +1,24 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": -1,
-    "editor.renderWhitespace": "boundary",
-    "editor.trimAutoWhitespace": true,
-    "emmet.triggerExpansionOnTab": true,
-    "files.trimTrailingWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.mouseWheelScrollSensitivity": 5,
+    "editor.trimAutoWhitespace": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "visualforce": "html"
+    },
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true,
         "suppressWelcomeNotice": true
     },
-    "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Atom One Dark",
-    "gitlens.keymap": "chorded",
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
     "typescript.validate.enable": false,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -35,9 +35,11 @@
         "editor.tabSize": 4,
         "editor.insertSpaces": true
     },
-    "explorer.autoReveal": false,
-    "editor.mouseWheelScrollSensitivity": 5,
     "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jre1.8.0_221",
     "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
-    "eslint.autoFixOnSave": true
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": -1,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Atom One Dark"
 }
