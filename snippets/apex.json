@@ -81,5 +81,21 @@
             "\t\t${1:Columns}",
             "\tFROM ${2:Table}];"
         ]
+    },
+    "DAMock": {
+        "prefix": "DAMock",
+        "body": [
+            "public inherited sharing class $TM_FILENAME_BASE extends DmlBaseMock implements ${1:Interface} {",
+            "\tprivate Map<Id, ${2:SObjectType}> ${3:CollectionName};",
+            "\tpublic Boolean IsSuccess = true;",
+                    "",
+            "\tpublic $TM_FILENAME_BASE() {",
+            "\t\tsuper(new Map<Id, $2>(), Schema.$2.SObjectType);",
+            "\t\tthis.$3= (Map<Id, $2>)super.Records;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Stub out a Mock Class"
     }
 }
