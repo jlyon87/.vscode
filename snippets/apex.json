@@ -86,7 +86,7 @@
         "prefix": "DAMock",
         "body": [
             "public inherited sharing class $TM_FILENAME_BASE extends DmlBaseMock implements ${1:Interface} {",
-            "\tprivate Map<Id, ${2:SObjectType}> ${3:CollectionName};",
+            "\tpublic Map<Id, ${2:SObjectType}> ${3:CollectionName};",
             "\tpublic Boolean IsSuccess = true;",
                     "",
             "\tpublic $TM_FILENAME_BASE() {",
